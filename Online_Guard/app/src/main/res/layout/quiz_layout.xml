@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="QUIZ"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Please read '10 Tips to avoid Online Deception' before answering the questions. Q1 - Q5 are related to the tips while Q6 - Q10 are more challenging."
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginVertical="5dp"
+                android:background="@color/teal_700" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="1. A strong password should include: "
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rg1">
+
+                <RadioButton
+                    android:id="@+id/q1c1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="My birthday so that I will not forget" />
+
+                <RadioButton
+                    android:id="@+id/q1c2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Both uppercase and lowercase letters" />
+
+                <RadioButton
+                    android:id="@+id/q1c3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Combination of letters, numbers and special characters" />
+
+                <RadioButton
+                    android:id="@+id/q1c4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="8 characters at most" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="2. What not should we do in online payment?"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rg2">
+
+                <RadioButton
+                    android:id="@+id/q2c1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Posting screenshot of payment in social media, e.g. facebook" />
+
+                <RadioButton
+                    android:id="@+id/q2c2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Make sure that I am connected to a private Wi-Fi network" />
+
+                <RadioButton
+                    android:id="@+id/q2c3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Make sure that the web address begins with 'https' but not 'http'" />
+
+                <RadioButton
+                    android:id="@+id/q2c4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Checking the SSL certificate" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="3. What cannot be shared to your friends?"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rg3">
+
+                <RadioButton
+                    android:id="@+id/q3c1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="My birthday" />
+
+                <RadioButton
+                    android:id="@+id/q3c2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="My favourite movie" />
+
+                <RadioButton
+                    android:id="@+id/q3c3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The name of my pet" />
+
+                <RadioButton
+                    android:id="@+id/q3c4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="My password on facebook" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="4. What not should we do to avoid online deceptions?"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rg4">
+
+                <RadioButton
+                    android:id="@+id/q4c1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Update the software daily" />
+
+                <RadioButton
+                    android:id="@+id/q4c2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Enable two-factor authentication (2FA) in my Google account" />
+
+                <RadioButton
+                    android:id="@+id/q4c3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reading news about the latest phishing technique" />
+
+                <RadioButton
+                    android:id="@+id/q4c4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Opening a suspicious link on email which is about free anti-virus software" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="5. Which of the following is not an example of anti-virus software?"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rg5">
+
+                <RadioButton
+                    android:id="@+id/q5c1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bitdefender" />
+
+                <RadioButton
+                    android:id="@+id/q5c2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Notion" />
+
+                <RadioButton
+                    android:id="@+id/q5c3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="McAfee" />
+
+                <RadioButton
+                    android:id="@+id/q5c4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Norton" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="6. What not should we do if we receive a suspicious link on email?"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rg6">
+
+                <RadioButton
+                    android:id="@+id/q6c1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Open the link in Incognito window" />
+
+                <RadioButton
+                    android:id="@+id/q6c2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Using this app to open the link" />
+
+                <RadioButton
+                    android:id="@+id/q6c3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Verify the sender of the email" />
+
+                <RadioButton
+                    android:id="@+id/q6c4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Enable active scanning in anti-malware software" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="7. Which function is not provided in this app?"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rg7">
+
+                <RadioButton
+                    android:id="@+id/q7c1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Blocking malware that already downloaded to the device" />
+
+                <RadioButton
+                    android:id="@+id/q7c2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Blocking reported phishing websites using Blocklist and APIs" />
+
+                <RadioButton
+                    android:id="@+id/q7c3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Providing latest news regarding cyber security" />
+
+                <RadioButton
+                    android:id="@+id/q7c4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Blocking some of the unreported malicious websites by real-time threat analysis" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="8. What of the following is not an example of security threats?"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rg8">
+
+                <RadioButton
+                    android:id="@+id/q8c1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Eavesdropping" />
+
+                <RadioButton
+                    android:id="@+id/q8c2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="IP routing" />
+
+                <RadioButton
+                    android:id="@+id/q8c3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Traffic analysis" />
+
+                <RadioButton
+                    android:id="@+id/q8c4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Masquerading" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="9. Is it absolutely secured to do online payment on a website that starts with 'https'?"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rg9">
+
+                <RadioButton
+                    android:id="@+id/q9c1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes, because https protocol encrypts the data in communication" />
+
+                <RadioButton
+                    android:id="@+id/q9c2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yes, because Transport Layer Security (TLS) provides end-to-end security protection" />
+
+                <RadioButton
+                    android:id="@+id/q9c3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No, because there is a chance that the website is fake" />
+
+                <RadioButton
+                    android:id="@+id/q9c4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No, because hackers can decrypt the data easily by brutal force" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="10. Which of the following file type cannot spread malware?"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rg10">
+
+                <RadioButton
+                    android:id="@+id/q10c1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="PDF" />
+
+                <RadioButton
+                    android:id="@+id/q10c2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ZIP" />
+
+                <RadioButton
+                    android:id="@+id/q10c3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="JPEG" />
+
+                <RadioButton
+                    android:id="@+id/q10c4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TXT   " />
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginVertical="5dp"
+                android:background="@color/teal_700" />
+
+            <TextView
+                android:id="@+id/scoreboard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text=""
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

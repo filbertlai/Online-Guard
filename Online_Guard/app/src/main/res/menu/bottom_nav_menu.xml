@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/browser"
+        android:title="Browser"
+        android:icon="@drawable/ic_baseline_web_24"/>
+    <item
+        android:id="@+id/news"
+        android:title="News"
+        android:icon="@mipmap/news"/>
+    <item
+        android:id="@+id/info"
+        android:title="Info"
+        android:icon="@drawable/ic_baseline_info_24"/>
+    <item
+        android:id="@+id/quiz"
+        android:title="Quiz"
+        android:icon="@mipmap/quiz"/>
+</menu>

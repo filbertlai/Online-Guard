@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Online Guard</string>
+    <string name="app_description">Online Guard is a mobile application developed by 2 Computer Science students in the University of Hong Kong to avoid online deceptions, by providing 3 main functions:\n\n1. Blocking reported phishing/malicious websites, by accessing multiple large databases and a user-defined blocklist.\n\n2. Blocking unreported phishing/malicious websites, by using real-time threat analysis.\n\n3. Information sharing regarding cyber security, like the latest cyber security news and some practical techniques in avoiding online frauds.</string>
+    <string name="app_usage">1. You can use the browser in the app to open a suspicious URL or browse any websites safely on the Browser page.\n\n2. You can add any URL or domain name (e.g. google) to the blocklist when can be accessed by clicking the 🚫 icon on the top.\n\n3. You can view the latest cyber security news on the News page.\n\n4. You can view some practical techniques to avoid online frauds on the Info page and attend a short quiz on the Quiz page.</string>
+    <string name="app_charge">Yes, it is free to use the application with no limitations.</string>
+</resources>

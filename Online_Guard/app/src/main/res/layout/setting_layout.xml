@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".setting_fragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SETTING AREA"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginVertical="5dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@color/teal_700" />
+
+        <Switch
+            android:id="@+id/switch0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vibrate when website blocked"
+            android:checked="true"
+            android:textOff="OFF"
+            android:textOn="ON"
+            android:paddingVertical="15dp"
+            android:paddingHorizontal="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blocking websites using blocklist"
+            android:checked="true"
+            android:textOff="OFF"
+            android:textOn="ON"
+            android:paddingVertical="15dp"
+            android:paddingHorizontal="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"/>
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ask before blocking websites in blocklist"
+            android:checked="true"
+            android:textOff="OFF"
+            android:textOn="ON"
+            android:paddingVertical="15dp"
+            android:paddingHorizontal="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blocking websites using APIs"
+            android:checked="true"
+            android:textOff="OFF"
+            android:textOn="ON"
+            android:paddingVertical="15dp"
+            android:paddingHorizontal="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"/>
+
+        <Switch
+            android:id="@+id/switch4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ask before blocking websites by APIs"
+            android:checked="true"
+            android:textOff="OFF"
+            android:textOn="ON"
+            android:paddingVertical="15dp"
+            android:paddingHorizontal="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <Switch
+            android:id="@+id/switch5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blocking websites using AI"
+            android:checked="true"
+            android:textOff="OFF"
+            android:textOn="ON"
+            android:paddingVertical="15dp"
+            android:paddingHorizontal="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:layout_marginTop="25dp"/>
+
+        <Switch
+            android:id="@+id/switch6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ask before blocking websites by AI"
+            android:checked="true"
+            android:textOff="OFF"
+            android:textOn="ON"
+            android:paddingVertical="15dp"
+            android:paddingHorizontal="20dp"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/default_app_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="15dp"
+            android:layout_marginTop="25dp"
+            android:text="Set as default browser" />
+
+    </LinearLayout>
+
+</FrameLayout>
